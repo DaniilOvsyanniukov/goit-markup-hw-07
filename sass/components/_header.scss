@@ -1,0 +1,12 @@
+.header{
+    border-bottom: 1px solid $color-header-line;
+
+    .container{
+    display: flex;
+
+    @include font ($fw:500, $lh:1.14, $ls:0.02em);
+
+    padding: 0px 15px;
+    width: 1170px;
+    }
+}    

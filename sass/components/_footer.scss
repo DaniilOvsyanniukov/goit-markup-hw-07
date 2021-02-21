@@ -1,0 +1,26 @@
+.footer{
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    background-color: $color-footer-background;
+    color: $color-secondary-text;
+    font-weight: 400;
+
+    .container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    }
+
+    .social-container{
+    margin-right: 93px;
+    }
+
+    .form{
+    display: flex;
+    }
+}    
+
+.interactive-container{
+    display: flex;
+}

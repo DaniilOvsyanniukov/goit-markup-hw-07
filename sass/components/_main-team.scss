@@ -1,0 +1,7 @@
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $color-secondary-background;
+    @include font ($fs:16px, $lh:1.19);
+    text-align: center;
+}

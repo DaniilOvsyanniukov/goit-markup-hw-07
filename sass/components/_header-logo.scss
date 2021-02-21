@@ -1,0 +1,20 @@
+.logo{
+    display: block;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+    font-family: 'Raleway', sans-serif;
+    @include font ($fs:26px, $lh:1.2);
+    color: $color-accent;
+
+    .sec-part-white{
+    color: $color-secondary-text;
+    }
+
+    .sec-part-black{
+    color: $color-title;
+    }
+}    
+
+
