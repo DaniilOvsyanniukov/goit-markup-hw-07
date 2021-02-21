@@ -155,14 +155,14 @@
     transform: translateY(-50%);
     width: 16px;
     height: 15px;
-    background-image: url(../../img/Vector.svg);
+    background-image: url(../img/Vector.svg);
     fill: $color-title;
     outline: 0px solid #FFFFFF;
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .icon-checkbox{
-    background-image: url(../../img/iconcheck.svg);
+    background-image: url(../img/iconcheck.svg);
     background-color: $color-accent;
     border-radius: 2px;
     fill: $color-accent;
